@@ -391,6 +391,21 @@ a {
     display: none;
   }
 }
+#hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo preencher a área sem distorcer */
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.lm #hero-video {
+    opacity: 0.8!important; /* Ajuste a opacidade para o modo claro */
+}
+
 /* PROOF */
 #proof {
   background: var(--bg2);
