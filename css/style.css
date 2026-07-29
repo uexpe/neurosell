@@ -243,18 +243,21 @@ a {
   gap: 8px;
   padding: 5px 14px 5px 8px;
   border-radius: 100px;
-  background: rgba(139, 92, 246, 0.12);
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  /*background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.3);*/
+  background: #25d36645!important;
+  border: 1px solid #075E54;
   font-size: 0.78rem;
   font-weight: 600;
-  color: #a78bfa;
+  color: #ffffffc4;/*#a78bfa;*/
   margin-bottom: 22px;
 }
 .bdot {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--pur);
+  /*background: var(--pur);*/
+  background: #34d399!important;
   animation: bpls 2s infinite;
   flex-shrink: 0;
 }
